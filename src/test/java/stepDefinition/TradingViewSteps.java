@@ -45,9 +45,7 @@ public class TradingViewSteps {
 		basePage = new BasePage(driver);
 		basePage.clickUserMenu();
 		basePage.clickSignInLink();
-		scenario.embed(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES), "image/png");
 		signInPage = basePage.clickEmailButton();
-		scenario.embed(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES), "image/png");
 		signInPage.enterUsername("tester_brady");
 		signInPage.enterPassword("test123");
 		forexMarketPage = signInPage.clickSignInButton();
