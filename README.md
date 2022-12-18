@@ -14,7 +14,6 @@ Important files to look for in the source code folder structure:
 •	PageObjects can be found here:
 /BradyTechTest/src/main/java/PageObjects
 
-
 To run the source code in your local machine please follow below steps:
 1.	Install Java and Maven
 2.	Install eclipse IDE or other similar IDEs of your choice.
